@@ -7,7 +7,7 @@ export default function Navbar() {
       <div className="font-semibold text-3xl lg:text-5xl text-indigo-500">
         marweb.
       </div>
-      <div className="hidden md:flex flex-row flex-shrink-0 justify-end lg:justify-between w-1/2 lg:w-1/4">
+      <div className="hidden md:flex flex-row flex-shrink-0 justify-end lg:justify-between w-1/2 xl:w-1/3 2xl:w-1/5">
         {/* Nav buttons */}
         <ul className="hidden lg:flex flex-row self-center text-lg">
           <li className="mx-2">
