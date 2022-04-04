@@ -9,7 +9,7 @@ function Home() {
         <title>Welcome</title>
       </Head>
       <Navbar />
-      index
+      <main className="bg-cyan-900">Hello</main>
     </>
   );
 }
