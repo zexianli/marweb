@@ -7,7 +7,8 @@ export default function Navbar() {
       <div className="font-semibold text-3xl lg:text-5xl text-indigo-500">
         marweb.
       </div>
-      <div className="hidden md:flex flex-row flex-shrink-0 justify-end lg:justify-between w-1/2 xl:w-1/3 2xl:w-1/5">
+
+      <div className="hidden md:flex flex-row  justify-end lg:justify-between md:w-1/2">
         {/* Nav buttons */}
         <ul className="hidden lg:flex flex-row self-center text-lg">
           <li className="mx-2">
@@ -21,7 +22,7 @@ export default function Navbar() {
           </li>
         </ul>
         {/* Login and signup */}
-        <div className="flex flex-shrink-0 self-center">
+        <div className="flex flex-row items-center">
           <button className="mx-2 px-6 py-2 border rounded-md border-indigo-500">
             Login
           </button>
